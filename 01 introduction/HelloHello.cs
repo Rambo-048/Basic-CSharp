@@ -10,7 +10,7 @@ namespace HelloHello
 	{
 		static void Main(Strings[] args) 
 		{
-			Console.WriteLine("Hello Hello"); 
+			Console.WriteLine("Whatever It Decide You To Do, Make Sure It Makes You Happy"); 
 		}
 	}
 }
