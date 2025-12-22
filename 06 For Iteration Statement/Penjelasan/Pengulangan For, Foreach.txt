@@ -1,0 +1,56 @@
+Statement PEGULANGAN :
+
+1. Contoh 1
+
+using System;
+using System.Collections.Generic;   
+using System.Linq;   
+using System.Text;  
+using System.Threading.Tasks;  
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{
+			for (int = 0; i < 10; i++)
+			{
+				Console.WriteLine(i);
+			}
+		}
+	}
+}
+
+
+2. Contoh 2
+
+using System;
+using System.Collections.Generic;   
+using System.Linq;   
+using System.Text;   
+using System.Threading.Tasks;   
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{
+			for (int i = 0; i < 10; i++)
+			{
+				// Print 0 - 9
+				Console.WriteLine(i);
+				
+				// Print "YOU FOUND ME!" saat i == 5 ; 
+				// Exit
+				// nilai 6 - 9 diabaikan
+				if (i == 5) 
+				{
+					Console.WriteLine("You Found Me!");
+					break;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+PERBEDAAN DALAM PENULISAN SYNTAX
+
+
+
+1. Menggunakan Beberapa Library :
+-----------------------------------------------------------
+using System;
+using System.Collections.Generic;  
+using System.Linq;  
+using System.Text;  
+using System.Threading.Tasks; 
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{
+			Console.WriteLine("Hello Hello"); 
+		}
+	}
+}
+--------------------------------------------------------------
+
+
+
+
+2. Menggunakan 1 Library saja
+--------------------------------------------------------------
+using System;
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main() 
+		{
+			Console.WriteLine("Hello Hello"); 
+		}
+	}
+}
+
+---------------------------------------------------------------

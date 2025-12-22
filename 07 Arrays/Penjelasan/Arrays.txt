@@ -1,0 +1,105 @@
+ARRAYS :
+
+using System;
+using System.Collections.Generic;  
+using System.Linq;  
+using System.Text;  
+using System.Threading.Tasks;  
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{
+			/*
+			int number1 = 4;
+			int number2 = 8;
+			int number3 = 15;
+			int number4 = 16;
+			int number5 = 23;
+			
+			if (number1 == 16)
+			{
+			}
+			else if (number2 == 16)
+			{
+			}
+			else if (number3 == 16)
+			{
+			}
+			*/
+			
+			
+			
+			
+			/*
+			int[] numbers = new int[5];
+			
+			numbers[0] = 2;
+			numbers[1] = 4;
+			numbers[2] = 6;
+			numbers[3] = 8;
+			numbers[4] = 10;
+			// numbers [5] = 12; <-- IndexOutOfRange was Unhandled(C#) / ArrayIndexOutOfBoundsException(JAVA)
+			
+			// IndexOutOfRange was Unhandled/ArrayIndexOutOfBoundsException ==>
+			   Berarti data yang dimasukan melebihi index yang disediakan.
+			   Contoh : Index yang disediakan 5 tetapi kita menginput data lebih
+			   dari itu misalnya 6 Data.
+			   
+			   IndexOutOfRange was Unhandled/ArrayIndexOutOfBoundsException 
+			   Merupakan kasus yang biasa disebut dengan "Buffer Overflow EROR". 
+			   
+	      Indeks  ---> [0]  [1]  [2]  [3]  [4]  [noIndexHere]
+	      Data    ---> 21   22   23   24   25    26
+	      
+			// Console.WriteLine(numbers[2]);
+			Console.WriteLine(numbers.length);
+			*/
+			
+			
+			
+			//int[] numbers = new int[] { 2, 4, 6, 8, 10 };
+			
+			// string[] names = new string[] {"Kentang","Wortel","Lobak","Jamur"};
+			
+			
+			/*
+			for (int i = 0; i < names.length; i++ )
+			{
+				Console.WriteLine(names[i]);
+			}
+			
+			*/
+			
+			
+			/*
+			foreach (string name in names)
+			{
+				Console.WriteLine(name);
+			}
+			*/
+			
+			
+			
+			
+			
+			// String Reverse String
+			   From A B C D E 
+			   to   E D C B A
+			
+			string text = "Not Really A Good Day" + "But Always Have A Something Good In Everyday";
+			
+			char[] charArray =text.ToCharArray();
+			Array.Reverse(charArray);
+			
+			foreach (char textChar in charArray)
+			{
+				Console.Write(textChar);
+			}
+			
+		}
+	}
+}
+

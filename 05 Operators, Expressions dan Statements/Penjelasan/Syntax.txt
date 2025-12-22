@@ -1,0 +1,64 @@
+OPERATOR
+
+using System;
+using System.Collections.Generic;   
+using System.Linq;   
+using System.Text;   
+using System.Threading.Tasks;   
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{
+			// Variable Declaration
+			int x, y, a, b;
+			
+			// Assignment Operator
+			x = 3;
+			y = 2;
+			a = 1;
+			b = 0;
+
+
+
+			// Addition Operator (ADD)
+			x = 3 + 4;
+			
+			// Substraction Operator (SUB)
+			x = 4 - 3;
+			
+			// Multiplication Operator (MUL)
+			x = 10 * 5;
+			
+			// Division Operator (DIV)
+			x = 10 / 5;
+			
+			// Order of operator using Parenthesis
+			x = (x + y) * (a - b)
+			
+			
+			
+			
+			// Equality Operator
+			if (x == y)
+			{
+			}
+
+			// Greater than Operator
+			if (x > y)
+			{
+			}
+			
+			// Less than Operator
+			if (x < y)
+			{
+			}
+			
+			
+			// Operator Bersyarat
+			string message = (x == 1) ? "Car" : "Boat";
+		}
+	}
+}

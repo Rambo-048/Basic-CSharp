@@ -1,0 +1,23 @@
+Struktur Program pada C# :
+
+
+-----------------------------------------------------------------
+
+using System;                      |           
+using System.Collections.Generic;  | 
+using System.Linq;                 |---->  Resources atau Library
+using System.Text;                 | 
+using System.Threading.Tasks;      | 
+
+namespace LatihanCSharp  <----- Namespace
+{
+ class HelloHello <------ Nama Class
+ {
+  static void Main(string[] args)   <-------- Deklarasi Method
+  {
+   Console.WriteLine("Hello Hello!");    <--------- Method atau Command
+   }
+ }
+}
+
+-----------------------------------------------------------------

@@ -1,0 +1,70 @@
+Jenis-Jenis Operator di C# :
+
+1. Operator Aritmatika.
+   +, -, *, /, %
+
+2. Operator Penugasan (Assignment)
+   merupakan operator yang dapat mempersingkat kode operasi.
+
+   int x = 15;
+   x += 4; // Sama dengan x = x + 4
+   x -= 5; // Sama dengan x = x - 5
+   x *= 3; // Sama dengan x = x * 3
+   x /= 2; // Sama dengan x = x / 2
+   x %= 4; // Sama dengan x = x % 4
+
+   Increment :
+   operator yang digunakan untuk menambah nilai suatu variabel bertipe data integer.
+   
+   x++;    // Sama dengan x = x + 1
+
+   A. Increament Operator dibagi menjadi 2 yaitu prefix dan postfix
+   .> Prefix, Menambah nilai kemudian memproses ekspresi.
+      {++x}
+
+   .> Postfix, Mengevaluasi Ekspresi kemudian melakukan penambahan nilai
+      {x++}
+
+   Decrement :
+   operator yang digunakan untuk mengurangi nilai suatu variabel.
+   
+   x--;    // Sama dengan x = x - 1
+
+   B. Decrement Operator dibagi menjadi 2 yaitu prefix dan postfix
+   .> Prefix, Menambah nilai kemudian memproses ekspresi.
+      {--x}
+
+   .> Postfix, Mengevaluasi Ekspresi kemudian melakukan penambahan nilai
+      {x--}
+
+
+3. Operator Perbandingan (Comparision)
+   <, >, <=, >=, ==
+
+4. Operator Logika (Boolean Logical)
+   AND(&&), OR(||), NOT(!)
+
+5. Operator Bitwise.
+   Operator bitwise adalah operator yang digunakan untuk melakukan operasi logika terhadap bilangan bulat dan proses pergeseran bit.
+   Saat operasi berlangsung, operand yang berupa bilangan bulat akan dikonversi ke dalam bentuk bilangan biner (basis 2) terlebih dahulu, dan operasinya dilakukan bit-demi-bit (bit = binary digit atau digit biner). Selanjutnya hasilnya akan dikonversi kembali ke dalam bentuk bilangan decimal (basis 10).
+   operand(Bilangan Bulat)  -->  Binary  -->  Decimal
+
+   Nama-Nama Operator Bitwise
+
+   ~	Bitwise Complement
+
+   &	Bitwise AND
+
+   |	Bitwise OR
+
+   ^	Bitwise Exclusive OR (XOR)
+
+   <<	Bitwise Left Shift
+
+   >>	Bitwise Right Shift
+
+6. Operator Kondisional (Ternary)
+   ==, !=, <=, >=
+   
+7.  Operator Bersyarat ( ? A : B )
+
