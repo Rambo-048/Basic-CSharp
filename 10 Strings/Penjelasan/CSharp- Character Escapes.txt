@@ -1,0 +1,84 @@
+C# - Character Escapes: 
+
+\ ==> Backslash
+
+/ ==> Foreslash
+
+@ ==> Special Character on C#
+
+
+
+These are basically the special characters or escape characters. The backslash character (\) in a regular expression indicates that the character that follows it either is a special character or should be interpreted literally.
+
+The following table lists the escape characters −
+
+Escape character	Description													Pattern									Matches
+\a	                Matches a bell character, \u0007.							\a										"\u0007" in "Warning!" + '\u0007'
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+\b					In a character class, matches a 
+					backspace, \u0008.											[\b]{3,}								"\b\b\b\b" in "\b\b\b\b"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\t					Matches a tab, \u0009.										(\w+)\t									"Name\t", "Addr\t" in "Name\tAddr\t"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\r					Matches a carriage return, \u000D.
+					(\r is not equivalent to the 
+					newline character, \n.)										\r\n(\w+)								"\r\nHello" in "\r\Hello\nWorld."
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\v					Matches a vertical tab, \u000B.								[\v]{2,}								"\v\v\v" in "\v\v\v"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\f					Matches a form feed, \u000C.								[\f]{2,}								"\f\f\f" in "\f\f\f"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\n					Matches a new line, \u000A.									\r\n(\w+)								"\r\nHello" in "\r\Hello\nWorld."
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\e					Matches an escape, \u001B.									\e										"\x001B" in "\x001B"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\nnn				Uses octal representation to 
+					specify a character (nnn consists of 
+					up to three digits).										\w\040\w								"a b", "c d" in "a bc d"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\x nn				Uses hexadecimal representation to 
+					specify a character (nn consists of 
+					exactly two digits).										\w\x20\w								"a b", "c d" in "a bc d"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\c X\c x			Matches the ASCII control character 
+					that is specified by X or x, 
+					where X or x is the letter of the 
+					control character.											\cC										"\x0003" in "\x0003" (Ctrl-C)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\u nnnn				Matches a Unicode character by using 
+					hexadecimal representation (exactly four 
+					digits, as represented by nnnn).							\w\u0020\w								"a b", "c d" in "a bc d"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\					When followed by a character that is 
+					not recognized as an escaped character, 
+					matches that character.										\d+[\+-x\*]\d+\d+[\+-x\*\d+				"2+2" and "3*9" in "(2+2) * 3*9"
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sumber : tutorialspoint.com/csharp/csharp_character_escapes
+
+
+
+
+Strings Format :
+
+"C" or "c"	Currency
+"D" or "d"	Decimal
+"E" or "e"	Exponential (scientific)
+"F" or "f"	Fixed-point
+"G" or "g"	General
+"N" or "n"	Number
+"P" or "p"	Percent
+"R" or "r"	Round-trip
+"X" or "x"	Hexadecimal
+
+Sumber : https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings

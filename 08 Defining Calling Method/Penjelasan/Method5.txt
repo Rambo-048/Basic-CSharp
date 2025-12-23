@@ -1,0 +1,44 @@
+MEMPERSINGKAT PENULISAN SYNTAX : (Return Our Program)
+
+using System;
+using System.Collections.Generic;   
+using System.Linq;   
+using System.Text;   
+using System.Threading.Tasks;  
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{	
+			Console.Write("Nama Depan : ");
+			string firstName = Console.ReadLine(); 	
+			
+			Console.Write("Nama Belakang : ");
+			string lastName = Console.ReadLine();
+			
+			Console.Write("In What City were you born : ");
+			string city = Console.ReadLine();
+			
+			Console.Write("Results : ");		
+			string reversedFirstName = ReverseString(firstName);
+			string reversedlastName = ReverseString(lastName);
+			string reversedCity = ReverseString(city);
+			
+			Console.Write(String.Format("{0} {1} {2}", reversedFirstName, reversedLastName, reversedCity));
+			
+			Console.ReadLine();
+		}
+		
+		private static string ReverseString(string message)
+		{		
+			char[] messageArray = message.ToCharArray();			
+			Array.Reverse(messageArray);
+			
+			return String.Concat(messageArray);	
+		}
+		
+	}
+}
+

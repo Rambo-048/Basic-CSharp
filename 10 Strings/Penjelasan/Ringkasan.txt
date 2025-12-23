@@ -1,0 +1,52 @@
+s dengan huruf Kecil
+|
+V
+string s = "Hello world!"; 
+
+s dengan Huruf Besar
+|
+V
+String s = "Hello world!"; <-- Capital S
+
+
+
+
+
+string dan String memiliki arti yang berbeda :
+
+string --> Menunjuk pada sebuah objek (Object)    
+ 
+String --> Menunjuk secara khusus ke Kelas (Class)
+
+
+
+
+CLASS dan OBJECT : 
+
+1. Class adalah semacam kerangka / struktur / konsep / prototype.
+   Class Terdiri dari 2 anggota yang disebut attribut/properti dan method.
+   - Variabel, di dalam class lebih dikenal sebagai attribute atau properti atau object.
+
+   - Method (function) mendefinisikan sifatnya, operasinya,  carakerjanya
+
+2. Object adalah Variasi Modelnya
+    Object merupakan instance dari sebuah CLASS.
+
+CONTOH :
+
+- Mahasiswa (ini sebagai class) 
+
+- mahasiswa (ini sebagai variabel atau objek)
+
+
+
+
+
+ANALOGI :
+
+MOBIL --> (Class)
+MOTOR --> (Class)
+
+Jenis/Merk Mobil (Oject)
+Jenis/Merk Motor (Object)
+

@@ -1,0 +1,35 @@
+MEMPERSINGKAT PENULISAN SYNTAX :
+
+using System;
+using System.Collections.Generic;   
+using System.Linq;   
+using System.Text; 
+using System.Threading.Tasks; 
+
+namespace HelloHello
+{
+	class Program
+	{
+		static void Main(Strings[] args) 
+		{			
+			ReverseString();
+			Console.ReadLine();
+		}
+		
+		private static void ReverseString()
+		{
+			string message = "Sarapan Pagi Yang Sehat";
+			
+			char[] messageArray = message.ToCharArray();
+			Array.Reverse(messageArray);
+			
+			foreach (char item in messageArray)
+			{
+				Console.Write(item);
+			}
+		
+		}
+		
+	}
+}
+
